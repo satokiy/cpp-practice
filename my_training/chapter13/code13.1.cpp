@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <vector>
+#include <queue>
 
 using namespace std;
 using Graph = vector<vector<int>>;
@@ -59,5 +60,5 @@ int main() {
     }
 
     // search
-    search(G, 0)
+    search(G, 0) // 0は適当な数字
 }
